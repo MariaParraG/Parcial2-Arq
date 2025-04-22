@@ -59,3 +59,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from parallel import medir_speedup
+
+print("\n--- Tarea 3: Paralelismo ---")
+medir_speedup()
+
